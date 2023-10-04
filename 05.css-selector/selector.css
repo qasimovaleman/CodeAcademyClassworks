@@ -1,29 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-#head{
-    background-image: url("./Harry-Potter-Movies-in-Order.avif");
-
+#head {
+  background-image: url("./Harry-Potter-Movies-in-Order.avif");
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .gence {
-    color: rgb(109, 128, 128);
+  color: rgb(109, 128, 128);
 }
 .ad {
-    color: red;
+  color: red;
 }
 .hed {
-    color: yellowgreen;
+  color: yellow;
 }
 .parag {
-    color: blue;
+  color: blue;
 }
 .span {
-    color: orangered;
+  color: orangered;
 }
 .head1 {
-    color: yellowgreen;
+  color: yellow;
 }
 .span1 {
-    color: blue;
+  color: blue;
 }
 .span2 {
-    color: orangered
+  color: orangered;
+}
+.head3 {
+  background-color: green;
+}
+.heading1 {
+  background-color: green;
+}
+.foto {
+  background-color: green;
+}
+.table {
+  background-color: rgb(112, 230, 230);
+}
+.for {
+  background-color: rgb(83, 100, 129);
+}
+.photo {
+  background-color: darksalmon;
+}
+.thead {
+  color: brown;
+}
+.tbody {
+  color: brown;
+}
+.border {
+  color: blue;
+}
+.this {
+  color: cornflowerblue;
+}
+.btn {
+  padding: 10 20;
+  border-radius: 4px;
+  background-color: rgb(143, 235, 143);
+  border: none;
+  color: white;
+}
+.btn :hover{
+  border: 1px rgb(143, 235, 143);
+  cursor: pointer;
+
 }

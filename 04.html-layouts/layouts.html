@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        table,td{
+            border: 1px solid grey;
+            border-collapse: collapse;
+        }
+        th {
+            background-color: grey;
+        }
+
+        header,footer,nav,section {border:1px solid grey;}
+        html {
+          scroll-behavior: smooth;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>This is Header</h1>
+    <h3>This is a Navigations</h3>
+    <header>
+      <nav>
+        <ul type="none">
+          <li>
+            <a href="#Section1" >Section 1</a>
+          </li>
+          <li>
+            <a href="#FormSection">Form Section</a>
+          </li>
+          <li>
+            <a href="#FormSection2">Form Section 2</a>
+          </li>
+          <li>
+            <a href="#Footer">Footer</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="Section1">
+      <article>
+        <h3>Section 1</h3>
+        <b>Web Browsers</b>
+        <p>
+          Google Chrome,Firefox,and Internet Explorer are the most used browsers
+          today.
+        </p>
+      </article>
+      <article>
+        <h3>Google Chrome</h3>
+        <p>Google Chrome 2008.</p>
+      </article>
+      <article>
+        <h3>Article</h3>
+        <p>
+          Internet Explorer is a free web browser from Microsoft,released in
+          1995.
+        </p>
+      </article>
+      <article>
+        <h3>Mozilla Firefox</h3>
+        <p>
+          Firefox is a free,open-source web browser from Mozilla,released in
+          2004
+        </p>
+      </article>
+    </section>
+    <section id="FormSection">
+      <h3>Form Section 1</h3>
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" /><br />
+        <label for="">Gender</label>
+        <input type="radio" id="" name="radio" />
+        <label for="">Male</label>
+        <input type="radio" id="" name="radio" />
+        <label for="">Female</label><br>
+        <label for="">Pets:</label>
+        <select name="" id="">
+            <option value="">City</option>
+        </select>
+        <button>Submit</button>
+      </form>
+    </section>
+    <section id="FormSection2">
+        <h3>Form Section 2</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hillary</td>
+                    <td>Nyakundi</td>
+                    <td>table@mail.com</td>
+                </tr>
+                <tr>
+                    <td>Lary</td>
+                    <td>Mak</td>
+                    <td>developer@mail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section><br>
+    <section id="Footer">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Hillary</td>
+                    <td>Advanced Web</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>Operating System</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Lary</td>
+                    <td>Advanced Web</td>
+                    <td>80</td>
+                    <tr>
+                        <td>Operating System</td>
+                        <td>75</td>
+                    </tr>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total Average:72.5</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <section><br>
+        <h3>
+            <b>Footer</b>
+        </h3>
+        <p>Copyright all reserved</p>
+    </section>
+  </body>
+</html>

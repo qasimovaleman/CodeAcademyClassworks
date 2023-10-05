@@ -80,3 +80,15 @@
 input::placeholder {
   color: red;
 }
+.name {
+  border-radius: 10px;
+  border: none;
+}
+.gname {
+  border-radius: 10px;
+  border: none;
+}
+.country {
+  border-radius: 10px;
+  border: none;
+}

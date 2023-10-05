@@ -1,0 +1,11 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+tbody tr:nth-child(2n+1) {
+    background-color: rgb(168, 212, 203);
+}
+tbody tr:nth-child(2n+2) {
+    background-color:aliceblue
+}                      

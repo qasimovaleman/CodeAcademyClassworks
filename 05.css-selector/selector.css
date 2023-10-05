@@ -77,3 +77,6 @@
   cursor: pointer;
 
 }
+input::placeholder {
+  color: red;
+}

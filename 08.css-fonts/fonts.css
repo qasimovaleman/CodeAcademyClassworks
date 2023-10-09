@@ -1,0 +1,74 @@
+.lorem8 {
+  font-family: "AR One Sans", sans-serif;
+  color: blue;
+  font-size: 40px;
+  text-decoration: underline;
+}
+.lorem5 {
+  font-family: "AR One Sans", sans-serif;
+  color: violet;
+  font-size: 33px;
+  text-decoration: underline;
+}
+.lorem25 {
+  font-family: "Martian Mono", monospace;
+  color: green;
+}
+.lorem25 b {
+  font-weight: 900px;
+}
+
+.lorem6 {
+  font-family: "Roboto Mono", monospace;
+  color: violet;
+  font-size: 33px;
+  text-shadow: 3px 2px 1px blueviolet;
+}
+.lorem4 {
+  color: green;
+  font: weight 4px;
+  font-size: 25px;
+}
+.lorem40 {
+  font-size: 15px;
+  color: green;
+  font-weight: 20px;
+}
+.loremm {
+  color: rgb(73, 126, 73);
+  font-weight: 600px;
+  font-size: 20px;
+}
+.lorem40 {
+  font-family: "Martian Mono", monospace;
+  color: green;
+}
+.lorem40 b {
+  font-size: 15px;
+}
+.lorem2 {
+  color: chocolate;
+  font-size: 23px;
+  text-shadow: 1px 3px 2px rgb(216, 8, 8);
+}
+.lorem22 {
+  color: green;
+  font-size: 23px;
+}
+.red {
+  color: brown;
+  font-size: 23px;
+  text-shadow: 3px 1px 2px red;
+}
+.gren {
+  color: rgb(26, 97, 26);
+  font-size: 19px;
+  text-decoration: underline;
+}
+.blue {
+  color: rgb(56, 134, 199);
+}
+.lorem33 {
+  color: green;
+  font-size: 20px;
+}

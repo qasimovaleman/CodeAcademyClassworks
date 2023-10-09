@@ -1,0 +1,25 @@
+header {
+  height: 5vh;
+  background-color: black;
+}
+
+.flex-box .box {
+  height: 20vh;
+  width: 30%;
+  background-color: teal;
+  border-radius: 10px;
+}
+.flex-box {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 0;
+  
+}
+footer {
+    height: 5vh;
+    background-color: rgb(89, 65, 112);
+    margin: 50px 20px;
+    border-radius: 10px;
+}

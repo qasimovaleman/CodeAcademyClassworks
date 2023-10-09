@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgb(190, 38, 144), red);
+  text-align: center;
+}
+#section {
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: white;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+.continue {
+  margin-top: 10%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.email,
+.password {
+  border-color: grey;
+  border-radius: 4px;
+  height: 5vh;
+  width: 350px;
+}
+.button {
+  height: 4vh;
+  width: 350px;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+.button:hover {
+  background-color: white;
+  color: rgb(4, 4, 59);
+}
+.pass {
+  margin: 15px 0;
+}
+.insta {
+  margin: 25px;
+}
+.Instagram {
+  font-family: "Dosis", sans-serif;
+}
+i {
+  margin: 0 2px;
+}
+.facebook {
+  font-size: 20px;
+  color: blue;
+  font-weight: 30px;
+}
+.link {
+  margin: 20px 0;
+  color: blue;
+}
+.signUp {
+  font-size: 20px;
+  font-weight: 90px;
+  margin: 0 50px;
+  border: 1px solid gray;
+  width: 350px;
+  height: 6vh;
+  margin:0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

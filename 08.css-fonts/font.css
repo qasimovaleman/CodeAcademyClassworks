@@ -1,0 +1,98 @@
+.css-font {
+  height: 100vh;
+
+  background-color: white;
+}
+.css-font .div1,
+.div2,
+.div3,
+.div4 {
+  height: 25vh;
+  color: forestgreen;
+  display: flex;
+  justify-content: center;
+}
+.div11 {
+  width: 15%;
+  border: 3px solid black;
+  background-color: forestgreen;
+  margin: 1px 80px 10px 1px;
+}
+.div12 {
+  width: 70%;
+  border: 3px solid black;
+  background-color: forestgreen;
+  margin: 1px 0 10px 0;
+}
+.div13 {
+  width: 15%;
+  border: 3px solid black;
+  background-color: forestgreen;
+  margin: 1px 1px 10px 80px;
+}
+.div21 {
+  border: 3px solid black;
+  width: 60%;
+  background-color: forestgreen;
+  margin: 10px 20px 10px 1px;
+}
+.div22 {
+  border: 3px solid black;
+  width: 10%;
+  background-color: forestgreen;
+  margin: 10px 20px 10px 20px;
+}
+.div23 {
+  border: 3px solid black;
+  width: 30%;
+  background-color: forestgreen;
+  margin: 10px 1px 10px 20px;
+}
+.div31 {
+  border: 3px solid black;
+  background-color: forestgreen;
+  width: 10%;
+  margin: 10px 20px 10px 1px;
+}
+.div32 {
+  border: 3px solid black;
+  background-color: forestgreen;
+  width: 30%;
+  margin: 10px 20px 10px 20px;
+}
+.div33 {
+  border: 3px solid black;
+  background-color: forestgreen;
+  width: 70%;
+  margin: 10px 1px 10px 20px;
+}
+.div41 {
+  border: 3px solid black;
+  background-color: forestgreen;
+  width: 30%;
+  margin: 10px 20px 10px 1px;
+}
+.div42 {
+  border: 3px solid black;
+  background-color: forestgreen;
+  width: 10%;
+  margin: 10px 20px 10px 20px;
+}
+.div43 {
+  border: 3px solid black;
+  background-color: forestgreen;
+  width: 30%;
+  margin: 10px 20px 10px 20px;
+}
+.div44 {
+  border: 3px solid black;
+  background-color: forestgreen;
+  width: 10%;
+  margin: 10px 20px 10px 20px;
+}
+.div45 {
+  border: 3px solid black;
+  background-color: forestgreen;
+  width: 40%;
+  margin: 10px 1px 10px 20px;
+}

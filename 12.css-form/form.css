@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgba(196, 196, 196, 0.849)
+}
+h3,input {
+    font-family: 'Martian Mono', monospace;
+}
+.container {
+    display: flex;
+}
+.div1 {
+    padding: 70px 150px;
+}
+.address {
+    margin: 10px 0;
+}
+.email {
+    margin: 20px 0 10px 0;
+}
+.telephone {
+    margin: 20px 0 10px 0;
+}
+.div2 {
+    
+    background-color: white;
+    width: 500px;
+
+}
+div h3 {
+    display: flex;
+    justify-content: center;
+}
+#name {
+    padding: 0 30px;
+}
+.name {
+    width: 95%;
+}
+#email {
+    padding: 0 30px;
+}
+.email {
+    width: 95%;
+}
+#message {
+    padding: 0 30px;
+}
+.message {
+    width: 95%; 
+}

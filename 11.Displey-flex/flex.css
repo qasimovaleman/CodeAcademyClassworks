@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body h1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 0 10px;
+}
+.container {
+  border: 1px solid brown;
+  margin: 5px;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+.boxes .box-3 {
+  border: 1px solid black;
+  width: 33%;
+  height: 60px;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxes .box-5 {
+  border: 1px solid black;
+  width: 20%;
+  height: 60px;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxes .box-1 {
+  border: 1px solid black;
+  width: 99%;
+  height: 60px;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxes .box-2 {
+  border: 1px solid black;
+  width: 50%;
+  height: 60px;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxes .box-4 {
+  border: 1px solid black;
+  width: 25%;
+  height: 60px;
+  margin: 6px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colorblue {
+  background-color: rgb(68, 221, 221);
+}
+.colorviolet{
+  background-color: blueviolet;
+}
+.coloryellowgreen {
+  background-color: rgb(115, 153, 58);
+}
+.colororange {
+  background-color: orangered;
+}
+.colorgreen {
+  background-color: green;
+}

@@ -12,6 +12,7 @@ h3,input {
     font-family: 'Martian Mono', monospace;
 }
 .container {
+    height: 70%;
     display: flex;
 }
 .div1 {
@@ -27,9 +28,12 @@ h3,input {
     margin: 20px 0 10px 0;
 }
 .div2 {
-    
+    margin: 70px 200px;
     background-color: white;
     width: 500px;
+    height: 40vh;
+    border: 1px solid rgb(238, 250, 250);
+    border-radius: 6px;
 
 }
 div h3 {
@@ -38,19 +42,80 @@ div h3 {
 }
 #name {
     padding: 0 30px;
+    margin: 20px 0 0 0;
+    
 }
 .name {
     width: 95%;
+    border: 1px solid rgba(196, 196, 196, 0.849);
+    border-radius: 5px;
+    background-color:rgba(196, 196, 196, 0.849);
+    height: 4vh;
 }
-#email {
+#emaill {
     padding: 0 30px;
 }
-.email {
+.emaill {
+    margin: 20px 0 15px 0;
     width: 95%;
+    border: 1px solid rgba(196, 196, 196, 0.849);
+    border-radius: 5px;
+    background-color:rgba(196, 196, 196, 0.849);
+    height: 4vh;
 }
 #message {
     padding: 0 30px;
+    margin: 10px 0 40px 0;
+    
 }
 .message {
     width: 95%; 
+    height: 10vh;
+    border: 1px solid rgba(196, 196, 196, 0.849);
+    border-radius: 5px;
+    background-color:rgba(196, 196, 196, 0.849);
+}
+.submit {
+    width: 100%;
+    
+}
+.submit {
+    background-color: green;
+    height: 4vh;
+    color: white;
+    border: none;
+}
+.text {
+    color: rgb(2, 2, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+footer {
+    height: 30%;
+    background-color: black;
+}
+.fa-brands {
+    color: white;
+    margin: 20px 5px;
+}
+.social-ikons {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    padding: 40px 0 10px 0;
+}
+.green {
+    color: green;
+}
+#textFooter {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address, .email, .telephone {
+    color: green;
+    font-weight: 32px;
 }

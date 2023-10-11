@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+}
+.container {
+    width: 50%;
+    height: 60vh;
+    border: 1px solid green;
+    position: relative;
+    margin: 40px  auto ;
+}
+.box {
+    height: 50px;
+    width: 50px;
+
+}
+.a {
+    background-color: brown;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.b {
+    background-color: rgb(190, 135, 33);
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+.c {
+    background-color: yellowgreen;
+    position: absolute;
+    top: 50px;
+    left:50px; 
+}
+.d {
+    position:sticky;
+    top: 0;
+    left: 100%;
+    background-color: orangered;
+}
+.e {
+    background-color: darkgoldenrod;
+    position: sticky;
+    top: 65%;
+    left: 50%;
+}
+.f {
+    background-color: indianred;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    
+}

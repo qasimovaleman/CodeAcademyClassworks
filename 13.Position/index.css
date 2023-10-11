@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  height: 200vh;
+}
+.img {
+  height: 60vh;
+  background-image: url("./img1122.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: green;
+  height: 8vh;
+  position: sticky;
+  top: 0;
+}
+.container ul li {
+  margin: 15px 0;
+}
+.bgcolor {
+  background-color: aquamarine;
+  height: 60vh;
+}

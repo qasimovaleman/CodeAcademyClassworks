@@ -1,0 +1,35 @@
+
+
+.container {
+    background-color: rgb(177, 175, 175);
+    height: 200vh;
+}
+
+.orange {
+    background-color: rgb(243, 221, 189);
+    border: 5px solid blue;
+    border-radius: 7px;
+    position:sticky;
+    top: 0;
+}
+.teal {
+    background-color: rgb(197, 243, 159);
+    border: 5px solid blue;
+    border-radius: 7px;
+    margin: 10px 0px 10px 40px;
+    position: relative;
+    top: 0;
+}
+.green {
+    background-color: rgb(21, 172, 177);
+    border: 5px solid blue;
+    border-radius: 7px;
+    margin: 10px;
+}
+.blue {
+    background-color: rgb(113, 113, 179);
+    border: 5px solid blue;
+    border-radius: 7px;
+    position: sticky;
+    top: 0;
+}

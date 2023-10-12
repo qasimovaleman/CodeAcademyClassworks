@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    /* background-color: rgb(204, 202, 202); */
+    border: 1px solid grey;
+    width: 30%;
+}
+
+.men-1 {
+    background-color: white;
+    margin: 10px 10px;
+    border: 1px solid white;
+    display: flex;
+}
+.men-1 img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 40%;
+    margin: 30px 0px;
+}
+.men-1 .text {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 10px 10 0 0;
+}
+.men-info {
+    width: 50%;
+}

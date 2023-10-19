@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+header {
+  background-color: transparent;
+}
+.link nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.link nav ul li a {
+  color: white;
+}
+.logo {
+  margin-left: 20px;
+}
+.ikon img {
+  margin-right: 140px;
+}
+section {
+  background-image: url("./image\ 3.svg");
+  height: 100vh;
+  background-size: cover;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text .text2 {
+  padding: 15% 0 0 0;
+}
+.text .paragraph {
+  margin: 3% 0;
+}
+.paragraph p {
+  text-align-last: center;
+}
+.text div h2 {
+  text-align: center;
+}
+.div-input {
+
+}
+.input-search {
+  width: 50%;
+  height: 30px;
+  margin: 20px 60% 10px 40%;
+  background-color: transparent;
+}
+input {
+  height: 40px;
+  border-radius: 20px 20px 20px 20px;
+
+ border: none;
+  padding: 2% 3%;
+  border: 1px solid snow;
+  position: absolute;
+}
+
+i {
+  position:relative;
+  color: grey;
+  right: -30%;
+  top: 70%;
+  border: 1px solid whitesmoke;
+  padding: 4px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 767px;) {
+
+}

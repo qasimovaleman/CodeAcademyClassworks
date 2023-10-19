@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container img {
+  width: 5%;
+  height: 30px;
+  border-radius: 50%;
+}
+.orange {
+  background-color: orange;
+}
+.violet {
+  background-color: blueviolet;
+}

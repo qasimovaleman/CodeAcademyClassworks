@@ -28,6 +28,9 @@ header {
 .link nav ul li a {
   color: white;
 }
+.link nav ul li a:hover{
+color: orange;
+}
 .logo img {
   margin-left: 1px;
 }
@@ -141,6 +144,11 @@ section {
   height: 20%;
   /* border: 1px solid pink; */
   box-shadow: 6px 7px 7px pink;
+  transition: 0.3s;
+}
+.footer .info:hover {
+  transform: translateY(10px);
+  box-shadow: 5px 5px 6px 0;
 }
 .footer .info:hover {
   background-color: rgb(245, 207, 219);
@@ -220,7 +228,9 @@ section {
   width: 50%;
 }
 .div-left-2 img {
-  height: 80%;
+  height: 70%;
+  width: 98%;
+  float: left;
 }
 .div-right-2 .righth3 , .rightp {
   display: flex;
@@ -228,13 +238,13 @@ section {
   align-items: center;
 }
 .div-right-2 {
-  margin: 10px 10px;
+  margin: 10px 20px;
 }
 .loremp {
-  margin: 20px 10px;
+  margin: 20px 20px;
 }
 .pinkbut {
-  position: sticky;
+  position: absolute;
   right: 10px;
   bottom: 8px;
   position: relative;
@@ -242,9 +252,9 @@ section {
   bottom: 8px;
 }
 .address {
-  position: relative;
+  position: absolute;
   right: 50%;
-  bottom: 60%;
+  bottom: 40%;
 }
 .ikon i {
   display: none;
@@ -296,5 +306,10 @@ section {
     flex-direction: column;
     row-gap: 20px;
     align-items: center;
+  }
+  .container-main2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

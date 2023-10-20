@@ -29,7 +29,7 @@ header {
   color: white;
 }
 .logo img {
-  margin-left: 10px;
+  margin-left: 1px;
 }
 .ikon {
   margin-right: 70px;
@@ -159,12 +159,12 @@ section {
   justify-content: space-between;
   margin: 40px 0;
 }
-.container-main .div-left , .div-right {
+.container-main .div-left,
+.div-right {
   width: 50%;
 }
 .div-right img {
-   width: 95%;
-   
+  width: 95%;
 }
 .div-left {
   margin-left: 15px;
@@ -182,7 +182,7 @@ section {
   justify-content: space-between;
 }
 .trendyol.a25 {
-width:25% ;
+  width: 25%;
 }
 .feaPro {
   margin: 30px 0;
@@ -194,8 +194,57 @@ width:25% ;
 .category {
   color: rgb(209, 190, 190);
 }
-.proh5 , .IDR {
+.proh5,
+.IDR {
   color: rgb(128, 113, 113);
+}
+.user-container {
+  display: flex;
+  justify-content: space-between;
+}
+ main .mainh1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-main2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.div-left-2 , .div-right-2 {
+  width: 50%;
+}
+.div-left-2 img {
+  height: 80%;
+}
+.div-right-2 .righth3 , .rightp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-right-2 {
+  margin: 10px 10px;
+}
+.loremp {
+  margin: 20px 10px;
+}
+.pinkbut {
+  position: sticky;
+  right: 10px;
+  bottom: 8px;
+  position: relative;
+  right: 58px;
+  bottom: 8px;
+}
+.address {
+  position: relative;
+  right: 50%;
+  bottom: 60%;
 }
 .ikon i {
   display: none;
@@ -204,7 +253,10 @@ width:25% ;
 @media screen and (max-width: 767px) {
   .ikon i {
     display: block;
-    margin: 0 10px;
+    margin: 0 5px;
+  }
+  .ikon {
+    float: right;
   }
   .header {
     display: flex;
@@ -239,5 +291,10 @@ width:25% ;
   }
   .trendyol.a25 {
     width: 50%;
+  }
+  .user-container {
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
   }
 }

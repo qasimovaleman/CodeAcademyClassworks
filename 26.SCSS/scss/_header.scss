@@ -1,0 +1,41 @@
+header {
+  height: 40px;
+  background-color: aqua;
+  .container {
+    .header {
+      @include flex(space-between, center);
+      .logo p {
+        margin: 0 20px;
+      }
+    }
+    nav ul {
+      @include flex(space-between, center);
+      gap: 30px;
+    }
+    a {
+      text-decoration: none;
+      &:hover {
+        color: rgb(240, 7, 7);
+        &::after{
+            content: '';
+            width: 0;
+            height: 3px;
+            position: absolute;
+            bottom: -5px;
+            left:50%;
+            transform: translateX(-50%);
+            background: #fff;
+            transition: width 0.3s;
+        }
+      }
+    }
+  }
+  button {
+    @extend %button;
+
+    &:hover {
+      color: black;
+      background-color: brown;
+    }
+  }
+}

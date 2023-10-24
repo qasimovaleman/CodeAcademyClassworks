@@ -4,12 +4,29 @@ header {
       @include flex(space-between, center);
     }
     .div-left {
+      h3 {
+        color: $h3h1color-color;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+      }
+
       @include flex(space-between, center);
       gap: 5rem;
       nav {
         ul {
-            @include flex(space-between, center);
-            gap: 30px;
+          @include flex(space-between, center);
+          gap: 30px;
+          li {
+            a {
+              color: $h4acolor-color;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 24px;
+              letter-spacing: 0.2px;
+            }
+          }
         }
       }
     }

@@ -48,6 +48,10 @@ table {
   border-spacing: 0;
 }
 
+* {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -65,11 +69,25 @@ header .container .div-left {
   align-items: center;
   gap: 5rem;
 }
+header .container .div-left h3 {
+  color: #252B42;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
 header .container .div-left nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+}
+header .container .div-left nav ul li a {
+  color: #737373;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
 }
 
 .bg-section-image {

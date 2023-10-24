@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: "space-between";
+  align-items: "center";
+}
+.footer .div-left {
+  width: 50%;
+  padding-top: 60px;
+  display: flex;
+  justify-content: "space-between";
+  align-items: "center";
+}
+.footer .div-left div {
+  margin: auto auto;
+}
+.footer .div-left div h2 {
+  font-size: 3rem;
+  color: rgba(24, 24, 23, 0.137);
+}
+.footer .div-left div li {
+  color: rgb(151, 108, 28);
+  font-size: 2.5rem;
+}
+.footer .div-left div li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgba(24, 24, 23, 0.137);
+}
+
+.div-right {
+  width: 50%;
+  padding-top: 60px;
+  display: flex;
+  justify-content: "space-between";
+  align-items: "center";
+}
+.div-right div {
+  margin: auto auto;
+}
+.div-right div h2 {
+  font-size: 3rem;
+  color: rgba(24, 24, 23, 0.137);
+}
+.div-right div li {
+  font-size: 2.5rem;
+  color: rgb(151, 108, 28);
+}
+.div-right div li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgba(24, 24, 23, 0.137);
+}
+.div-right div i {
+  font-size: 30px;
+  background-color: rgb(151, 108, 28);
+  border-radius: 50%;
+  padding: 20px;
+  color: white;
+}
+
+body {
+  background-color: rgba(216, 187, 132, 0.932);
+}
+
+footer {
+  height: 80vh;
+}
+
+.text {
+  height: 20vh;
+  display: flex;
+  justify-content: "space-between";
+  align-items: "flex-end";
+}
+.text .div1 {
+  float: left;
+  margin: auto;
+  padding: auto;
+}
+.text .div2 {
+  float: right;
+  margin: auto;
+  padding: auto;
+}
+.text .div2 span {
+  margin: 0 20px;
+}/*# sourceMappingURL=main.css.map */

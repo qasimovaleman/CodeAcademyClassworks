@@ -1,0 +1,78 @@
+.footer {
+  width: 100%;
+  @include flex("space-between", "center");
+  .div-left {
+    width: 50%;
+    padding-top: 60px;
+    @include flex("space-between", "center");
+    div {
+      margin: auto auto;
+      h2 {
+        font-size: 3rem;
+        color: $second-color;
+      }
+      li {
+        color: $third-color;
+        font-size: 2.5rem;
+        a {
+          font-size: 2rem;
+          text-decoration: none;
+          color: $second-color;
+        }
+      }
+    }
+  }
+}
+.div-right {
+  width: 50%;
+  padding-top: 60px;
+  @include flex("space-between", "center");
+  div {
+    margin: auto auto;
+    h2 {
+      font-size: 3rem;
+      color: $second-color;
+    }
+    li {
+      font-size: 2.5rem;
+      color: $third-color;
+      a {
+        font-size: 2rem;
+        text-decoration: none;
+        color: $second-color;
+      }
+    }
+    i {
+      font-size: 30px;
+      background-color: $third-color;
+      border-radius: 50%;
+      padding: 20px;
+      color: white;
+    }
+  }
+}
+body{
+  background-color: $primary-background-color;
+}
+footer {
+  height: 80vh;
+
+}
+.text {
+height: 20vh;
+  @include flex("space-between", "flex-end");
+  .div1 {
+    float: left;
+    margin: auto;
+    padding: auto;
+  }
+  .div2 {
+    float: right;
+    margin: auto;
+    padding: auto;
+    span{
+      margin: 0 20px;
+
+    }
+  }
+}

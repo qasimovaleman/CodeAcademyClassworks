@@ -1,0 +1,17 @@
+header {
+  .container {
+    .header {
+      @include flex(space-between, center);
+    }
+    .div-left {
+      @include flex(space-between, center);
+      gap: 5rem;
+      nav {
+        ul {
+            @include flex(space-between, center);
+            gap: 30px;
+        }
+      }
+    }
+  }
+}

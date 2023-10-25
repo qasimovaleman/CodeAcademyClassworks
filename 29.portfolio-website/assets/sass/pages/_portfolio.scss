@@ -1,0 +1,35 @@
+.sup-info {
+  height: 10vh;
+  background-color: $sub-bg-color;
+  .sup-text {
+    @include flex();
+    gap: 2rem;
+    a {
+      color: #391400a3;
+      text-align: center;
+      padding: auto;
+      margin: auto;
+    }
+  }
+}
+
+.image-decor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  .box {
+    width: 30%;
+    position: relative;
+    div {
+      position: absolute;
+      bottom: 10%;
+      left: 10%;
+      button {
+        @extend %second-btn;
+      }
+    }
+  }
+  img {
+    width: 100%;
+  }
+}

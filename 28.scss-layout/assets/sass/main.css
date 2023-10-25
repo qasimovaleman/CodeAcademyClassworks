@@ -275,6 +275,9 @@ header .container .div-left nav ul li a {
 #video-text .video-text .bottom .div-foto-video {
   width: 50%;
 }
+#video-text .video-text .bottom .div-foto-video img {
+  height: 50%;
+}
 #video-text .video-text .bottom .text {
   width: 50%;
 }

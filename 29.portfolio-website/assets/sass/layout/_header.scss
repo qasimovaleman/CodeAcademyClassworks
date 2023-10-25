@@ -1,0 +1,36 @@
+.banner-header {
+  background-color: rgb(32, 1, 1);
+}
+
+header {
+  padding: 20px 0;
+  background-color: rgb(32, 1, 1);
+  .header {
+    @include flex(space-between, center);
+    .logo {
+      @include flex();
+      gap: 1rem;
+      h4 {
+        color: white;
+        font-size: 24px;
+        font-weight: 32px;
+        line-height: 32px;
+      }
+    }
+    nav ul {
+      @include flex(space-between, center);
+      gap: 2rem;
+      li {
+        a {
+          color: white;
+        }
+      }
+    }
+    .button {
+      button {
+        @extend %primary-btn;
+        padding: 12px 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.banner-header {
+  background-color: rgb(32, 1, 1);
+}
+
+.banner {
+  h1 {
+    color: white;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -2px;
+  }
+  p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align-last: center;
+  }
+  .banner-text {
+    margin-top: 8%;
+
+    @include flex();
+    flex-direction: column;
+  }
+}

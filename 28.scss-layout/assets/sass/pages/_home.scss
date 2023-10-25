@@ -68,10 +68,15 @@
     }
   }
   .info {
+    transition: 0.2s;
     padding: 35px 40px;
     background: #295c7a;
     &.img {
       background-color: white;
+    }
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 4px 2px 3px rgb(46, 43, 43);
     }
   }
 }
@@ -107,18 +112,43 @@
       @include flex(center, center);
       gap: 2rem;
       .ikon-number-text {
+        @include flex(center, center);
+        flex-direction: column;
         margin-top: 10px;
         width: 14%;
         background-color: white;
         padding: 30px 40px;
+        margin-bottom: 50px;
+        transition: 0.3s;
+        &:hover {
+          transform: scale(1.1);
+          box-shadow: 3px 2px 3px rgb(46, 35, 35);
+        }
       }
     }
   }
 }
 #video-text {
   .video-text {
+    .bottom {
+      width: 100%;
+      @include flex(space-between, center);
+      .text {
+        @include flex();
+        flex-direction: column;
+        .ikon-text {
+          @include flex();
+          flex-direction: column;
+        }
+      }
+      .div-foto-video{
+        width: 50%;
+      }
+      .text{
+        width: 50%;
+      }
+    }
     .div-top {
-      
       div {
         h2 {
           color: $h3h1color-color;
@@ -140,73 +170,21 @@
         }
       }
     }
-    .div-bottom {
-      margin-top: 20%;
-      @include flex(space-between, center);
-      width: 100%;
-      .div-left {
-        width: 50%;
-        .parnt {
-          position: absolute;
-        }
-        .Child {
-          position: relative;
-          left: 25px;
-          top: 0%;
-        }
-      }
-      .div-right {
-        text-align: center;
-        width: 50%;
-        h2 {
-          color: $h3h1color-color;
-          font-weight: 700;
-          font-size: 40px;
-          line-height: 50px;
-          letter-spacing: 0.2;
-          text-align: center;
-          margin-top: 0%;
-        }
-        p {
-          margin-top: 2%;
-          color: $h4acolor-color;
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 20px;
-          letter-spacing: 0.2px;
-          text-align: center;
-        }
-        .image-text-left {
-          display: flex;
-          flex-direction: column;
-          h5 {
-            font-size: 16px;
-            font-weight: 700;
-            line-height: 24px;
-            letter-spacing: 0.1;
-          }
-          h6 {
-            font-size: 14px;
-            font-weight: 700;
-            line-height: 24px;
-            letter-spacing: 0.2px;
-          }
-        }
-      }
-    }
+    // BOTTOM
   }
 }
-#images{
-  background: #FAFAFA;
-  .images-6{
+#images {
+  background: #fafafa;
+  .images-6 {
     @include flex();
-    margin-top:30%;
+    margin-top: 30%;
     gap: 2.5rem;
-    div{
-      img{
+    div {
+      img {
         align-items: center;
+        padding: auto;
+        margin: 30px;
       }
     }
   }
-
 }

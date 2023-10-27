@@ -7,7 +7,7 @@
 }
 .container {
   max-width: 1200px;
-  padding: 0 5%;
+  padding: 0 1%;
 }
 .bg-image {
   background-image: url("./images/image-hero.jpg");
@@ -33,9 +33,10 @@
   column-gap: 2rem;
 }
 .navigation nav ul li a {
+  text-decoration: none;
   color: white;
   padding-top: 15px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .header .navigation ul li {
   display: inline-block;
@@ -67,6 +68,7 @@
   display: inline-block;
   margin: 10%;
 }
+
 /* RESPONSIVE HEADER  */
 @media screen and (max-width: 767px) {
   .navigation nav ul li a {
@@ -76,14 +78,19 @@
     display: none;
   }
   .navigation i {
+    padding-top: 10px;
     color: white;
     display: block;
+    float: right;
+  }
+  .bg-image h1 {
+    margin: 30% 25%;
   }
 }
 /* ------------------------ */
 /* PART-2 */
 .image-info {
-  width: 100%;
+  /* width: 100%; */
   margin: 10% 0;
   display: flex;
   justify-content: center;
@@ -99,8 +106,8 @@
 .info-right {
   width: 50%;
   position: absolute;
-  top: 51%;
-  left: 79%;
+  top: 40%;
+  left: 72%;
 
   background-color: #fff;
 }
@@ -109,4 +116,188 @@
 }
 .info-right p {
   padding: 0 40px 40px 40px;
+  line-height: 40px;
+}
+.row :hover {
+  opacity: 0.6;
+}
+@media screen and (max-width: 767px) {
+  .image-info {
+    display: flex;
+    flex-direction: column;
+    position: static;
+  }
+  .image-left {
+    width: 100%;
+  }
+  .info-right {
+    width: 100%;
+    position: static;
+    top: 45%;
+    left: 79%;
+  }
+  .info-right h1 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .info-right p {
+    text-align: center;
+  }
+}
+/* PART-3 */
+.text-btn {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+span {
+  color: #fff;
+  font-size: 30px;
+}
+.boxs {
+  position: relative;
+}
+.foto-mobile {
+  display: none;
+}
+.boxs span {
+  position: absolute;
+  top: 75%;
+  left: 15%;
+}
+.btn-right {
+  width: 180px;
+}
+.btn-end {
+  display: none;
+}
+/* PART-3 RESPONSIVE */
+@media screen and (max-width: 767px) {
+  .foto-desktop {
+    display: none;
+  }
+
+  .foto-mobile {
+    display: block;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .boxs span {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    line-height: none;
+  }
+  .text-btn {
+    flex-direction: column;
+  }
+  .btn-right {
+    display: none;
+  }
+  .btn-end {
+    display: block;
+    margin: 20px auto 40px auto;
+  }
+  .btn-end:hover {
+    border: 1 px solid orangered;
+  }
+  .row {
+    margin: auto;
+  }
+}
+/*  FOOTER  */
+footer {
+  background-color: black;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-left {
+  margin: 20px;
+}
+.footer-left h3 {
+  color: #fff;
+}
+.footer nav ul {
+  float: unset;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+.footer nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding-top: 15px;
+  font-weight: 400;
+}
+.footer ul li {
+  display: inline-block;
+  position: relative;
+}
+.footer ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #fff;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.footer ul li:hover::after {
+  width: 100%;
+}
+.text p {
+  color: grey;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.social-ikons {
+  transition: 0.3s;
+}
+.social-ikons .fa-brands {
+  color: #fff;
+  font-size: 30px;
+  margin: 0 15px;
+}
+.social-ikons .fa-brands::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #fff;
+  display: block;
+  margin: auto;
+}
+.social-ikons .fa-brands:hover::after {
+  width: 100%;
+}
+.social-ikons .fa-brands {
+  display: inline-block;
+  position: relative;
+}
+/* RESPONSIVE FOOTER */
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-left {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .social-ikons .fa-brands {
+    font-size: 20px;
+    margin: 0 10px;
+  }
 }

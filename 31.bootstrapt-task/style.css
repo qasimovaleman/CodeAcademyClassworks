@@ -141,7 +141,7 @@ opacity: 0.5;
   }
   .foto-text .div-right {
     background-color: #fff;
-    position: absolute;
+    position: unset;
     bottom: 0;
     right: 0;
   }
@@ -162,7 +162,7 @@ footer .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-
+float: none;
   gap: 2rem;
 }
 .footer-left nav ul li a {
@@ -196,7 +196,7 @@ footer .footer {
 }
 
 .footer-right .social-ikons i:hover:after {
-  width: 20px;
+  width: 15px;
 }
 .footer .navigation ul li::after {
   content: "";

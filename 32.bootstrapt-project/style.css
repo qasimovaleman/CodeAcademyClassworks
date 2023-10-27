@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 5%;
+}
+.bg-image {
+  background-image: url("./images/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo h3 {
+  padding-top: 15px;
+  color: white;
+  font-size: 32px;
+}
+.navigation nav ul {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+}
+.navigation nav ul li a {
+  color: white;
+  padding-top: 15px;
+  font-weight: 300;
+}
+.header .navigation ul li {
+  display: inline-block;
+  position: relative;
+}
+.header .navigation ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #fff;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.header .navigation ul li:hover::after {
+  width: 100%;
+}
+.navigation i {
+  padding-top: 15px;
+  color: white;
+  display: none;
+}
+.bg-image h1 {
+  font-weight: 200;
+  font-size: 70px;
+  color: white;
+  border: 1px solid white;
+  padding: 15px;
+  display: inline-block;
+  margin: 10%;
+}
+/* RESPONSIVE HEADER  */
+@media screen and (max-width: 767px) {
+  .navigation nav ul li a {
+    display: none;
+  }
+  .navigation nav ul li {
+    display: none;
+  }
+  .navigation i {
+    color: white;
+    display: block;
+  }
+}
+/* ------------------------ */
+/* PART-2 */
+.image-info {
+  width: 100%;
+  margin: 10% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.info-right h1 {
+  font-weight: 200;
+}
+.image-left {
+  width: 50%;
+}
+.info-right {
+  width: 50%;
+  position: absolute;
+  top: 51%;
+  left: 79%;
+
+  background-color: #fff;
+}
+.info-right h1 {
+  padding: 40px;
+}
+.info-right p {
+  padding: 0 40px 40px 40px;
+}
